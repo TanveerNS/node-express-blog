@@ -1,0 +1,41 @@
+{
+  "name": "ns-blog",
+  "version": "1.0.0",
+  "description": "node express mongo blog",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TanveerNS/node-express-blog.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongo",
+    "blog"
+  ],
+  "author": "TanveerNS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TanveerNS/node-express-blog/issues"
+  },
+  "homepage": "https://github.com/TanveerNS/node-express-blog#readme",
+  "dependencies": {
+    "dompurify": "^2.0.15",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "jsdom": "^16.4.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.10.1",
+    "mongoose-slug-generator": "^1.0.4",
+    "multer": "^1.4.2",
+    "string-strip-html": "^6.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
